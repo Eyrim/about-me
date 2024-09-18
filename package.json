@@ -5,7 +5,7 @@
     "main": "index.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
-        "build": "esbuild js/giphy.js --bundle --outfile=bundle.js"
+        "build": "esbuild ./js/main.js --bundle --outfile=bundle.js"
     },
     "repository": {
         "type": "git",
